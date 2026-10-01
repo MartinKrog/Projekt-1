@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+Body {
+    background-color: #FFFFFF;
+    color: #111827;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #F7F8FC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo {
+    color: #111827;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: baskerville;
+}
+
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #111827;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #5B5CF6;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    max-width: 1200px;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+
+.hero img {
+    width: 400px;
+    height: 400px;
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    color: #5B5CF6;
+}
+
+.hero .intro {
+    color: #4B5563;
+    font-size: 12px;
+}
+
+.hero .description {
+    color: #4B5563;
+    font-size: 16px;
+    max-width: 400px;
+}
+
+.button {
+    background-color: #5B5CF6;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 14px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    background-color: #4F46E5;
+}
+
+.secondary-button {
+    color: #111827;
+    padding: 12px 20px;
+    text-decoration: none;
+    border: 1px solid #E5E7EB;
+    border-radius: 14px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+footer {
+    background-color: #F7F8FC;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    flex: 1;
+}
+
+.uddannelsesboks {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.uddannelse {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.erfaringsboks {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.erfaring {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.kompetenceliste {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.kompetenceboks {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.kompetencer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.sprogboks {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.sprog {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.certifikatboks {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.certifikater {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.frivilligt {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.frivilligboks {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.interesser {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.interesseboks {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.cv {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cv img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    object-fit: cover;
+}

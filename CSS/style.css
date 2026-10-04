@@ -247,4 +247,25 @@ main {
     .kompetenceliste {
         grid-template-columns: 1fr;
     }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .udannelse,
+    .erfaring,
+    .kompetencer,
+    .sprog,
+    .certifikater,
+    .frivilligt,
+    .interesser {
+        padding: 30px 20px;
+    }
+
+    @media (max-width: 375px) {
+        nav {
+            gap: 15px;
+        }
+    }
 }

@@ -262,10 +262,31 @@ main {
     .interesser {
         padding: 30px 20px;
     }
+}
 
-    @media (max-width: 375px) {
-        nav {
-            gap: 15px;
-        }
+@media (max-width: 375px) {
+    nav {
+        gap: 15px;
     }
+}
+
+.projektliste {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+
+.projektboks {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.projektboks img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }

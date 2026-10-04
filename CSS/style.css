@@ -234,3 +234,17 @@ main {
     border-radius: 20%;
     object-fit: cover;
 }
+
+.cv h1 {
+    font-size: 48px;
+}
+
+@media (max-width: 768px) {
+    .cv {
+        flex-direction: column;
+    }
+
+    .kompetenceliste {
+        grid-template-columns: 1fr;
+    }
+}

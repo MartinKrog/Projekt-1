@@ -314,7 +314,6 @@ details summary {
 }
 
 @media (max-width: 768px) {
-
     .cv {
         flex-direction: column;
     }
